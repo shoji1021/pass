@@ -17,7 +17,7 @@ def AutoLogin():
     url = "https://www.instagram.com/?locale=ja_JP"
 
     browser.get(url)
-
+ 
     for i1 in ASCII_list:
         pw_list[1] = chr(i1)
         for i0 in ASCII_list:
